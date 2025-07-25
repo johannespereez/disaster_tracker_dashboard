@@ -10,11 +10,11 @@ A real-time disaster response dashboard for visualizing earthquakes and wildfire
 - Earthquake forecasting using historical trends
 - Expandable view of raw data
 
-
+python -m venv venv
 venv\Scripts\activate        # On Windows
 # or
 source venv/bin/activate     # On Mac/Linux
-
+pip install -r requirements.txt
 disastertracker/
 ├── app.py                     # Main Streamlit dashboard
 ├── etl/
